@@ -1,0 +1,63 @@
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container {
+  background-color: rgb(15, 151, 242);
+}
+.edit{
+  display: flex;
+ margin-bottom: 30px;
+ 
+}
+.h1 {
+  color: black;
+  text-align: center;
+}
+
+.p2 {
+  color: rgb(0, 174, 255);
+}
+
+p {
+  color:black
+}
+
+button {
+  background-color: antiquewhite;
+  border: antiquewhite;
+  color: red;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.input {
+  background-color: antiquewhite;
+  color: black;
+  border: antiquewhite;
+}
+
+.submitB {
+  color: antiquewhite;
+  background-color: red;
+  border:red;
+}
+.submitE{
+  color: antiquewhite;
+  background-color: green;
+  border: green;
+}
+
+@media (max-width: 414px) {
+  .containerInput {
+   
+    flex-direction: row;
+    
+  }
+  .input {
+    display: flex;
+    margin-left: 0px;
+  }
+
+}
